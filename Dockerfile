@@ -6,4 +6,4 @@ RUN apt-get update \
 && git clone https://github.com/pillone/usntssearch.git /opt
 
 EXPOSE 5000
-CMD python /opt/usntssearch/NZBmegasearch mega2.py
+CMD python /opt/NZBmegasearch mega2.py
